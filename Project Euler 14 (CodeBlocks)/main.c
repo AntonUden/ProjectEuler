@@ -31,6 +31,6 @@ int main()
         }
     }
     printf("\n Result: %I64d. with length: %I64d\n", largestNumber, largestLength);
-    while(true) getchar();
+    getchar();
     return 0;
 }

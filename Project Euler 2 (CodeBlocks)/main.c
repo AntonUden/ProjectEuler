@@ -18,6 +18,6 @@ int main()
         b = c+b;
     }
     printf("\n%I64d\n", sum);
-    for(;;) getchar();
+    getchar();
     return 0;
 }

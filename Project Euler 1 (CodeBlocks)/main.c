@@ -14,6 +14,6 @@ int main()
         }
     }
     printf("\nResult = %I64d\n", sum);
-    for(;;) getchar();
+    getchar();
     return 0;
 }

@@ -18,7 +18,7 @@ int main()
     }
     printf("\nResult: %i", i);
 
-    while(true) getchar();
+    getchar();
 
     return 0;
 }

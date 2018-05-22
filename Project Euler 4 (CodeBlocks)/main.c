@@ -16,7 +16,7 @@ int main()
         }
     }
     printf("Largest palindrome = %i\n", largest);
-    while(true) getchar();
+    getchar();
     return 0;
 }
 

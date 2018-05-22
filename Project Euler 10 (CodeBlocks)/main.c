@@ -17,7 +17,7 @@ int main()
         }
     }
     printf("\nSum of all primes below %i is %I64d", MaxNumber, result);
-    while(true) getchar();
+    getchar();
     return 0;
 }
 

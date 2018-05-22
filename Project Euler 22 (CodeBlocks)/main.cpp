@@ -16,7 +16,7 @@ int main()
     std::vector<string> list;
 
     // Reading
-    std::ifstream ifs("E:\\programing\\names.txt");
+    std::ifstream ifs("./names.txt");
     std::string content((std::istreambuf_iterator<char>(ifs) ),(std::istreambuf_iterator<char>()));
     content.erase(std::remove(content.begin(), content.end(), '"'), content.end());
     content.erase(std::remove(content.begin(), content.end(), ' '), content.end());
@@ -46,7 +46,7 @@ int main()
         for(int k = 0; k < i.length(); k++) {
             score += toupper(i.at(k)) - 64;
         }
-        cout << j << " : " << i << " : " << (j * score) << endl;
+        // cout << j << " : " << i << " : " << (j * score) << endl;
         sum = sum + (j * score);
     }
 
