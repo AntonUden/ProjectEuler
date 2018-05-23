@@ -1,4 +1,3 @@
-#include <QCoreApplication>
 #include <iostream>
 
 #define MAX 100
