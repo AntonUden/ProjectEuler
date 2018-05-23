@@ -1,4 +1,4 @@
 # ProjectEuler
 My Project Euler solutions
 
-Editors: Qt and CodeBlocks
+Editors: Qt, VisualStudio and CodeBlocks
