@@ -1,18 +1,16 @@
-import math
+def get_primes(n):
+    numbers = set(range(n, 1, -1))
+    primes = []
+    while numbers:
+        p = numbers.pop()
+        primes.append(p)
+        numbers.difference_update(set(range(p*2, n+1, p)))
+    return primes
 
-result = 0;
+primes = get_primes(2000000)
 
-def isPrime(number):
-	if number < 2:
-		return False
-	
-	for i in range(2, int(math.sqrt(number)) + 1):
-		if number % i == 0:
-			return False
-	return True
+sum = 0
+for i in primes:
+    sum+=i
 
-for i in range(1, 2000000):
-	if isPrime(i):
-		result += i
-		
-print(result)
+print(sum)
